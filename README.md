@@ -1,2 +1,2 @@
 # lifto
-lifto is a compling of funny videos and memes.
+lifto is a compilation of funny videos and memes.
