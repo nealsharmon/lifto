@@ -1,0 +1,156 @@
+@charset "UTF-8"
+
+aside, footer, header, main, nav, section {
+ display: block;
+}
+html, body, h1, h2, h3, h4, ul, li, a, p, article, aside, footer, header, nav, section, iframe, link, section, article, main , aside, div {
+padding: 0;
+margin: 0;
+}
+.banner {
+background-color: #339933;
+color: white;
+padding: 10px 20px;
+}
+body {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+Background-color: #f0f0f0;
+font-family: Helvectica, Arial, sans-serif;
+font-size: 15px;
+}
+
+.info {
+ height: 300px;
+ width: 225px;
+ }
+
+nav {
+background-color: #339933;
+padding: 5px;
+margin-top: 1px;
+}
+li a {
+color: white;
+}
+li {
+ display: inline;
+ margin-left: 15px;
+ margin-right: 15px;
+ font-size: 20px;
+ font-variant: small-caps;
+ font-weight: bold;
+ }
+ iframe {
+ background-color: #bbbbbb;
+ margin-top: 10px;
+ padding: 5px;
+ }
+ aside {
+ background-color: #bbbbbb;
+ margin-top: 10px;
+ padding: 5px;
+ margin-bottom: 10px;
+ }
+ section {
+ background-color: #bbbbbb;
+ margin-top: 10px;
+ padding: 5px;
+ }
+ article {
+ Background-color: white;
+ color: black;
+ margin-top: 5px;
+ padding: 10px 15px;
+ }
+ .lag {
+ Color: red;
+ }
+ main {
+ width: 640px;
+ float: left; 
+margin-bottom: 10px; 
+ }
+ aside {
+ background-color: #bbbbbb;
+ width: 270px;
+ float: right;
+ padding: 20px;
+ margin-top: 10px;
+ }
+ footer {
+ clear: both;
+ background-color: #20416e;
+ color: white;
+ padding: 5px 20px;
+}
+@media only screen and (max-width:639px) { /* Phone */
+body {
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+Background-color: #f0f0f0;
+font-family: Helvectica, Arial, sans-serif;
+font-size: 10px;
+}
+ aside {
+display: none;
+ }
+ main {
+ width: 300px;
+margin-bottom: 10px; 
+ }
+ iframe {
+ width: 290px;
+ height: 250px;
+}
+li {
+ display:block;
+ font-size: 15px;
+}
+}
+
+@media only screen and (min-width:640px) and (max-width:959px){ /* Tablet */
+ body {
+width: 650px;
+margin-left: auto;
+margin-right: auto;
+Background-color: #f0f0f0;
+font-family: Helvectica, Arial, sans-serif;
+font-size: 10px;
+}
+ main {
+ width: 330px;
+margin-bottom: 10px; 
+ }
+ iframe {
+ width: 320px;
+ height: 280px;
+}
+li {
+ display:inline;
+ font-size: 20px;
+ 
+}
+
+aside {
+ background-color: #bbbbbb;
+ margin-top: 10px;
+ padding: 5px;
+ margin-bottom: 10px;
+ width : 300px;
+}
+.add {
+ height: 375px;
+ width: 295px;
+ }
+ 
+ .long {
+ height: 550px ;
+ }
+.addlong {
+height: 460px;
+ width: 295px;
+}
+ }
