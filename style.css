@@ -1,9 +1,5 @@
 @charset "UTF-8"
 
-audio {
- width: 200px;
-}
-
 aside, footer, header, main, nav, section {
  display: block;
 }
